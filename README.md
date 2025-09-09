@@ -1,6 +1,24 @@
 # SELabBankingSystem
 
-A simple **Java banking system project** demonstrating **Object-Oriented Programming (OOP) concepts** including *encapsulation, association, composition, aggregation, and inheritance*. This project simulates core banking operations with customers, accounts, transactions, and UPI-based payments.
+A simple **Java banking system project** demonstrating **Object-Oriented Programming (OOP) concepts** including association, composition, aggregation, and inheritance*. This project simulates core banking operations with customers, accounts, transactions, and UPI-based payments.
+
+
+## How to Run
+
+### Step 1: Navigate to Project Directory
+```bash
+cd path/to/SELabBankingSystem
+```
+
+### Step 2: Compile the Project
+```bash
+javac -d out $(find src -name "*.java")
+```
+
+### Step 3: Run the Application
+```bash
+java -cp out com.Banking.Main.Main
+```
 
 ---
 
@@ -65,19 +83,3 @@ SELabBankingSystem/
 - Adds UPI-specific field: `upiId`.
 
 ---
-## How to Run
-
-### Step 1: Navigate to Project Directory
-```bash
-cd path/to/SELabBankingSystem
-```
-
-### Step 2: Compile the Project
-```bash
-javac -d out $(find src -name "*.java")
-```
-
-### Step 3: Run the Application
-```bash
-java -cp out com.Banking.Main.Main
-```
