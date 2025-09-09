@@ -5,21 +5,39 @@ A simple **Java banking system project** demonstrating **Object-Oriented Program
 
 ## How to Run
 
-### Step 1: Navigate to Project Directory
+### macOS/Linux (Terminal)
+
+#### Step 1: Navigate to Project Directory
 ```bash
 cd path/to/SELabBankingSystem
 ```
 
-### Step 2: Compile the Project
+#### Step 2: Compile the Project
 ```bash
 javac -d out $(find src -name "*.java")
 ```
 
-### Step 3: Run the Application
+#### Step 3: Run the Application
 ```bash
 java -cp out com.Banking.Main.Main
 ```
 
+### Windows (PowerShell)
+
+#### Step 1: Navigate to Project Directory
+```powershell
+cd path\to\SELabBankingSystem
+```
+
+#### Step 2: Compile the Project
+```powershell
+javac -d out (Get-ChildItem -Path src -Filter "*.java" -Recurse | ForEach-Object { $_.FullName })
+```
+
+#### Step 3: Run the Application
+```powershell
+java -cp out com.Banking.Main.Main
+```
 ---
 
 ### Features
