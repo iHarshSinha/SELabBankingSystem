@@ -6,7 +6,10 @@ A simple **Java banking system project** demonstrating **Object-Oriented Program
 ## How to Run
 
 ### macOS/Linux (Terminal)
-
+#### Step 0: Clone the repository
+```bash
+git clone <repository-url>
+```
 #### Step 1: Navigate to Project Directory
 ```bash
 cd path/to/SELabBankingSystem
